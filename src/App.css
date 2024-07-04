@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  color: var(--text-color);
+}
+
+:root {
+  --text-color: #151515 ;
+  --note-color: linear-gradient(135deg, #FCC900 0%, #DBA514 100%);
+  --sidebar-color: #ffb26ae1;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 9%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e 0%, #ff6f61 100%);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 15px 15px 0;
+}
+
+.sidebar button {
+  margin-top: 20px;
+}
+
+.content {
+  padding: 14px 0 0 25px;
+  width: 100%;
+}
+
+.content h1{
+  padding-bottom: 10px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.note {
+  width: 300px;
+  min-height: 200px;
+  max-height: 300px;
+  background: var(--note-color);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  justify-content: space-between;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note:hover {
+  transform: scale(1.05);
+}
+
+.note .date {
+  font-size: 0.9em;
+  color: #3a3a3a;
+  font-weight: 400;
+}
+
+.note .text {
+  margin-bottom: 10px;
+  color: var(--text-color);
+  font-weight: 500;
+  overflow: auto;
+}
+
+.note .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-note textarea {
+  background: none;
+  max-width: 100%;
+  max-height: 150px;
+  padding: 5px;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn i {
+  color: white;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
