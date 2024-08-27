@@ -54,7 +54,8 @@ function App() {
     <div className="app">
       <Sidebar showCard={showCard} setShowCard={setShowCard} />
       <div className="content">
-        <h1>Notes</h1>
+        <h1 style={{ flex:'flex-row', justifyContent:'center', textAlign:'center'}}>Capture Your Thoughts, Anytime, Anywhere!!!</h1>
+        <p style={{ textAlign:'center', padding:'4px', marginBottom:'10px' }}>Organize your ideas with ease and never miss a moment of inspiration.</p>
         
         <div className="notes-container" ref={noteContainerRef}>
             {showCard && <NewNote newText={newText} setNewText={setNewText} handleAdd={handleAdd} />}
