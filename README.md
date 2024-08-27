@@ -30,8 +30,8 @@ npm run dev
 ## Usage
 
 ### Creating a Note
-•	Click the "+" button in the sidebar to open the note creation form.
-•	Enter your note text and hit "Add" to save your note.
-Deleting a Note
-•	Hover over the note card you wish to delete.
-•	Click the "Delete" button to remove the note permanently.
+- Click the "+" button in the sidebar to open the note creation form.
+-	Enter your note text and hit "Add" to save your note.
+### Deleting a Note
+-	Hover over the note card you wish to delete.
+-	Click the "Delete" button to remove the note permanently.
