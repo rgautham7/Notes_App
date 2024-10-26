@@ -36,5 +36,9 @@ npm run dev
 -	Hover over the note card you wish to delete.
 -	Click the "Delete" button to remove the note permanently.
 
+## Website URL - Deployed on Vercel
+
+https://notes-bug0kwy6r-gauthams-projects-94597e21.vercel.app
+
 ## Website Image
 ![image](https://github.com/user-attachments/assets/2d5339e9-8a5c-4ad8-b3e4-97544cc84e5c)
