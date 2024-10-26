@@ -35,3 +35,6 @@ npm run dev
 ### Deleting a Note
 -	Hover over the note card you wish to delete.
 -	Click the "Delete" button to remove the note permanently.
+
+## Website Image
+![image](https://github.com/user-attachments/assets/2d5339e9-8a5c-4ad8-b3e4-97544cc84e5c)
